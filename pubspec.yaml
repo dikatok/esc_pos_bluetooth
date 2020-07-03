@@ -10,10 +10,12 @@ dependencies:
   flutter:
     sdk: flutter
   rxdart: ^0.24.1
-  esc_pos_utils: ^0.3.6
+  esc_pos_utils: ^0.4.5
   # esc_pos_utils:
   # path: ../esc_pos_utils
-  flutter_bluetooth_basic: ^0.1.5
+  flutter_bluetooth_basic:
+    path: git://github.com/dikatok/flutter_bluetooth_basic.git
+    ref: bump-rxdart-0.24.1
 
 dev_dependencies:
   flutter_test:

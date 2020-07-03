@@ -14,8 +14,9 @@ dependencies:
   # esc_pos_utils:
   # path: ../esc_pos_utils
   flutter_bluetooth_basic:
-    path: git://github.com/dikatok/flutter_bluetooth_basic.git
-    ref: bump-rxdart-0.24.1
+    git:
+      url: git://github.com/dikatok/flutter_bluetooth_basic.git
+      ref: bump-rxdart-0.24.1
 
 dev_dependencies:
   flutter_test:
